@@ -1,0 +1,112 @@
+#titulo{	
+	font-size: 300%;
+	color: #000000;
+
+}
+
+body{
+
+	background-color: #FFE87C;
+	margin: 0px;
+
+}
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+}
+form {
+	font-size: 130%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0.5em;
+ 	float:left;
+    width: 40%;
+    height: 400px;
+    padding: 1em;
+    border: 5px solid #EBE1DA;
+    border-radius: 1em;
+    background: #FBB117;
+    
+}
+form > div{
+	margin-top: 1.5em;
+}
+#grafica{
+	font-size: 130%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-right: 0.5em;
+	float:right;
+	width: 45%;
+	text-align: center;
+	height: 400px;
+	padding: 1em;
+	border: 5px solid #EBE1DA;
+	border-radius: 1em;
+	background-color: white;
+}
+
+.button{
+	
+	padding-left: 500px;	
+
+}
+
+
+   
+
+
+#table-2 {
+	border: 1px solid #e3e3e3;
+	background-color: #f2f2f2;
+        width: 100%;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+#tabla-2{
+	background-color: #FFF380;
+}
+#table-2 td, #table-2 th {
+	padding: 5px;
+	color: #333;
+}
+#table-2 thead {
+	margin-top: 1em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: .2em 0 .2em .5em;
+	text-align: left;
+	color: #4B4B4B;
+	background-color: #C8C8C8;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FBB117), to(#C8BDAF), color-stop(.6,#FFE87C));
+	background-image: -moz-linear-gradient(top, #D6D6D6, #B0B0B0, #B3B3B3 90%);
+	border-bottom: solid 1px #999;
+}
+#table-2 th {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	line-height: 20px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	text-shadow: white 1px 1px 1px;
+}
+#table-2 td {
+	line-height: 20px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+#table-2 td:hover {
+	background-color: #fff;
+}
+tbody tr:nth-child(odd) {background: #F1ECCF;}
+#raiz{
+	float:left;
+	text-align: center;
+	font-size: 200%;
+	color: black;
+}

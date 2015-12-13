@@ -1,0 +1,87 @@
+
+<!-- 
+	Nombre: FECG-EncuentraRaizPuntoFijo.html
+	Fecha: 15/9/2015
+	Autor : Francisco Enrique Cordova Gonzalez
+	Descripcion: Este programa genera aproximaciones a raices de ecuaciones con punto fijo y ademas grafica la ecuacion.
+-->
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>FECG-EncuentraRaizPuntoFijo</title>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/mathjs/2.2.0/math.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <script src="http://brcdn.org/RbDt4b0Shej4JLF7KBQEilNbIiI.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/2.2.0/math.min.js"></script>
+<script type="text/javascript"
+  		src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src = "FECG-EncuentraRaizPuntoFijo.js">
+	</script>
+
+
+
+
+
+</head>
+<body>
+
+	<div id = "titulo">
+		$$Valor\,aproximado\,de\,una\,raiz\,usando\,punto\,fijo$$ 
+	</div>
+	<form id = "caja">
+		<p>Programa que genera aproximaciones de raices de ecuaciones</p>
+		<div>
+			<label for = "Fx">\(f(x):\) </label>
+			<input type ="text" id="Fx" value="x^3 + 4x^2 - 10">
+		</div>
+		<div>
+			<label for = "x">\(g(x):\) </label>
+			<input type = "text" id = "x" value = "sqrt(10/(x+4))">
+		</div>
+		<div>
+			<label for = "a">\(a:\)</label>
+			<input type = "text" id = "a" value = "0">
+		</div>
+		<div>
+			<label for = "b">\(b:\)</label>
+			<input type = "text" id = "b" value = "2">
+		</div>
+		<div>
+			<label for = "Max-Iteraciones">\(Iteraciones:\)</label>
+			<input type = "text" id = "Max-Iteraciones" value = "50">
+		</div>
+		<div>
+			<label for "tolerancia">\(Tolerancia:\)</label>
+			<input type = "text" id = "tolerancia" value = "0.0001">
+		</div>
+
+		<div class = "button">
+			<button type = "button" id = "calcula" value = "calcular">calcular</button>
+	
+		</div>
+
+	</form>
+
+	<div id = "grafica">
+	</div>
+
+	<div id = "raiz"></div>
+	<table id="table-2">
+	<thead>
+		<th>$$n$$</th>
+		<th>$$p_n$$</th>
+		<th>$$f(p_n)$$</th>
+		<th>$$error\,\,\,\frac{(p_n-p_{n-1})}{p_n}$$</th>
+	</thead>
+	<tbody id = "tabla-2">
+
+	</tbody>
+</table>
+</body>
+</html>

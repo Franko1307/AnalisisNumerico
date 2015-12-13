@@ -1,0 +1,49 @@
+header {
+	width : 100%;
+	float: left;
+	height: 10%;
+	padding-top: 1em;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	padding-bottom: 2em;
+	color: #FFE87C;
+	text-align: center;
+}
+#Contenedor{
+
+	width: 50%;
+	float: left;
+	height: 30%;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 130%;
+	text-align: center;
+
+}
+#calcular {
+	width: 40%;
+	float: left;
+	height: 3em;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 130%;
+}
+#Integral{
+	width: 100%;
+	float:left;
+	height: 3em;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 150%;
+	color: yellow;
+}
+#ERRORES {
+	text-align: center;
+	color: red;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 200%;
+}
+footer {
+	margin-top: 5em;
+	float: left;
+	width: 100%;
+}
+html {
+	background-image: url("Blue Abstract Background.jpg");
+}

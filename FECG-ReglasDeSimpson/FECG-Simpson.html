@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Nombre: FECG-Simpson.html -->
+<!-- Autor: Francisco Enrique Cordova Gonzalez -->
+<!-- Fecha: 30/11/2015 -->
+<!-- Descripción: Este programa usa método simpson 1/3 y 3/8 para solucionar y encontrar el valor de funciones.-->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+		<title>Simpson</title>
+</head>
+	<body>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjs/2.4.1/math.min.js'></script>
+		<script src='FECG-js.js'></script>
+	<header id = "header">
+			<div id = "intro">
+				<h1>Programa que utiliza las reglas de Simpson para calcular el valor de la integral de una función</h1>
+			</div>
+
+			<div id = "Contenedor">
+
+					<div>
+						<label for = "fx"> F(x): </label>
+						<input type = "text" id = "fx" value = "3x^2 + 1/x">
+						<label for "fx"> dx </label>
+					</div>
+
+					<div>
+						<label for = "a"> a: </label>
+						<input type = "text" id = "a" value = "1">
+					</div>
+					<div>
+						<label for ="b"> b: </label>
+						<input type = "text" id = "b" value = "2">
+					</div>
+					<div>
+						<label for = "n"> particiones: </label>
+						<input type = "text" id = "n" value = "5">
+					</div>
+		</div>
+
+		<div id = "calcular">
+			<button type = "button" id = "calcular" value = "calcular">Calcular</button>
+		</div>
+		</header>
+
+		<div id = "Integral"></div>
+		<div id="ERRORES"></div>
+
+		<footer id="footer">
+			<div id = "info">Programa hecho por Francisco Enrique Cordova Gonzalez</div>
+		</footer>
+	</body>
+</html>

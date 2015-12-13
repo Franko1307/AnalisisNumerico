@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<!-- Nombre: FECG-Matrices.html -->
+<!-- Autor: Francisco Enrique Cordova Gonzalez -->
+<!-- Fecha: 15/11/2015 -->
+<!-- Descripción: Este programa usa interpolación de Lagrange para hacer aproximaciones a funciones dados puntos de la función a la que se quieren aproximar.-->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+		<title>Regresion Polinomial</title>
+</head>
+	<body>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjs/2.4.1/math.min.js'></script>
+		<script src='FECG-Matrices.js'></script>
+	<header id = "header">
+			<div id = "intro">
+				<h1>Programa que utiliza regresión polinomial para encontrar una función que se acerce lo más posible a todos los puntos</h1>
+			</div>
+			<div id = "intro2">
+				<div id = "SubirArchivo">
+					<label for = "Archivo">\(Seleccione\,un\,archivo.\)</label>
+					<input type="file" id="fileInput">
+					<pre id="fileDisplayArea"></pre>
+					<div id = "gradoDelPolinomio">
+						<label for = "gradoPolinomio"> Ingrese orden \(n\) del polinomio:</label>
+						<input type = "text" id = "gradoPolinomio" onkeypress="return checaLetra(event)" name = "txtChar">
+					</div>
+				</div>
+			</div>
+			<div id = "UploadBotton">
+				<button type = "button" id = "ordenar" value = "ordenar">subir</button>
+			</div>
+		</header>
+		<div id = "CONTAINER">
+			<div id = "funcion"></div>
+			<div id = "evaluar">
+				<label for = "IngreseX">¿Evaluar \(x\) ?</label>
+				<input type="text" id="IngreseX" onkeypress="return checaLetra(event)"  name="txtChar">
+				<button type = "button" id = "evaluarbotton" value = "evaluar">evaluar</button>
+			</div>
+			<div id = "resultado"></div>
+		</div>
+		<div id="ERRORES"></div>
+		<footer id="footer">
+			<div id = "info">Programa hecho por Francisco Enrique Cordova Gonzalez</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,95 @@
+header {
+	width : 100%;
+	float: left;
+	height: 10%;
+	padding-top: 1em;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	padding-bottom: 2em;
+	color: #FFE87C;
+	text-align: center;
+}
+#intro {
+	text-align: center;
+	font-size: 80%;
+	width: 100%
+}
+#intro2 {
+	margin-top: 7em;
+}
+#funcion {
+	
+	border:3px solid white;
+	margin-left: auto;
+   	margin-right: auto;
+   	width: 1200px;
+  	display: block;
+   	float: none;
+	margin: 0 auto;
+	position: absolute;
+	overflow: auto;
+}
+#CONTAINER {
+	
+	padding-top: 3em;
+	margin-top: 1.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 3em;
+	width: 93%;
+	float: left;
+	font-size: 130%;
+	text-align: center;
+	color: #87F717;
+	border:5px solid #7FFFD4;
+}
+#ordenar {
+	width: 10em;
+	height: 3em;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 130%;
+}
+#fileInput {
+	width: 10em;
+	height: 2em;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 130%;
+}
+#SubirArchivo {
+	text-align: center;
+	width : 49%;
+	float:left;
+}
+#UploadBotton {
+
+	width : 49%;
+	float:left;
+}
+#evaluar {
+	margin-top: 5em;
+	float: left;
+	text-align: center;
+	width: 49%;
+	font-size: 150%;
+}
+#resultado {
+	margin-top: 5em;
+	margin-left: 5em;
+	float: left;
+	width: 49;
+	text-align: center;
+	font-size: 150%;
+}
+#ERRORES {
+	text-align: center;
+	color: red;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 200%;
+}
+footer {
+	margin-top: 5em;
+	float: left;
+	width: 100%;
+}
+html {
+	background-image: url("Blue Abstract Background.jpg");
+}
